@@ -1,10 +1,9 @@
-//ReactDOM.render(<h1>Hello, React.js! (document)</h1>, document.getElementById("root"));
+// Vanilla JS (imperative)
 
-const content = (
-  <ul>
-    <li>First line</li>
-    <li>Second line</li>
-  </ul>
-);
+let rootEl = document.getElementById("root");
 
-ReactDOM.render(content, document.querySelector("#root"));
+let newEl = document.createElement("h1");
+newEl.textContent = "testing Vanilla js";
+//newEl.setAttribute("class", "header");
+newEl.className = "header";
+rootEl.appendChild(newEl);
