@@ -1,9 +1,16 @@
-// Vanilla JS (imperative)
+const element =
+(
+  <nav>
+    <h1>Loghino 6 piane</h1>
+    <ul>
+      <li>Pricing</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+);
 
-let rootEl = document.getElementById("root");
-
-let newEl = document.createElement("h1");
-newEl.textContent = "testing Vanilla js";
-//newEl.setAttribute("class", "header");
-newEl.className = "header";
-rootEl.appendChild(newEl);
+ReactDOM.render(
+  element,
+  document.getElementById("root")
+);
