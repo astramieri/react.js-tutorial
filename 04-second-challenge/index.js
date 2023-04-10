@@ -1,8 +1,13 @@
 function Header() {
   return (
     <header>
-      <nav>
-        <img src="./react-logo.png" width="60px" />
+      <nav className="nav-bar">
+        <img src="./react-logo.png" className="nav-logo" />
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
@@ -14,17 +19,17 @@ function Introduction() {
 
 function OrderedList() {
   return (
-    <ul>
+    <ol>
       <li>First item</li>
       <li>Second item</li>
       <li>Third item</li>
-    </ul>
+    </ol>
   );
 }
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer-el">
       <small>© 2023 Clow Brigade. All rights reserved.</small>
     </footer>
   );
