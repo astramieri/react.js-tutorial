@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+div.Main {
+  border-color: coral;
+  border-style: solid;
+}
+
+div.Navbar {
+  border-color: green;
+  border-style: solid;
+}
