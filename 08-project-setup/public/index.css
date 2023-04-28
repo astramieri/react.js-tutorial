@@ -11,7 +11,8 @@ div.Main {
   border-style: solid;
 }
 
-div.Navbar {
+nav.Navbar {
   border-color: green;
   border-style: solid;
+  display: flex;
 }
