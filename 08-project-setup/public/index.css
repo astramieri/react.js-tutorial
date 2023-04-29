@@ -1,14 +1,6 @@
 body {
   margin: 0;
-}
-
-div.App {
-  font-family: 'Inter', sans-serif;
-}
-
-div.Main {
-  border-color: coral;
-  border-style: solid;
+  font-family: "Inter", sans-serif;
 }
 
 nav {
@@ -36,4 +28,23 @@ nav {
   color: whitesmoke;
 }
 
+main {
+  padding: 50px 20px;
+  background-color: slategray;
+  color: white;
+}
 
+.main-title {
+  margin: 0px;
+  font-size: 30px;
+  /* letter-spacing: -0.05em; */
+}
+
+.main-list {
+  margin-top: 20px;
+}
+
+.main-list > li {
+  font-size: 15px;
+  line-height: 22px;
+}
