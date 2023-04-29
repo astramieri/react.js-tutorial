@@ -11,8 +11,29 @@ div.Main {
   border-style: solid;
 }
 
-nav.Navbar {
-  border-color: green;
-  border-style: solid;
+nav {
   display: flex;
+  align-items: center;
+  background-color: darkslategrey;
+  height: 60px;
+  padding: 20px;
 }
+
+.nav-logo {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.nav-title {
+  margin: 0;
+  margin-right: auto;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.nav-text {
+  margin: 0;
+  color: whitesmoke;
+}
+
+
