@@ -32,6 +32,10 @@ main {
   padding: 50px 20px;
   background-color: slategray;
   color: white;
+  background-image: url(../src/images/react_logo.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 .main-title {
@@ -47,4 +51,9 @@ main {
 .main-list > li {
   font-size: 15px;
   line-height: 22px;
+}
+
+.main-list > li::marker {
+  color: aquamarine;
+  font-size: 2em;
 }
