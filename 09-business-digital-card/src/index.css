@@ -1,3 +1,29 @@
 body {
   margin: 0;
+  background-color: lightslategray;
+}
+
+.App {
+  width: 300px;
+  background-color: darkslategray;
+  margin: auto;
+  margin-top: 30px;
+  width: 30%;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.Profile {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.Profile:hover {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.Profile > img {
+  display: block;
+  width: 20%;
 }
