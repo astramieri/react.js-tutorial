@@ -1,11 +1,19 @@
-import React from 'react';
-import portrait from "../images/homer_simpson.png";
+import portrait from "../images/homer_simpson.jpg";
 
 function Profile() {
   return (
     <div className="Profile">
-      <img src={portrait} alt="portrait" />
-      <h3>Homer Simpson</h3>
+      <figure>
+        <img
+          src={portrait}
+          alt="portrait"
+          title="Homer Simpson portrait"
+          width="70"
+		  height="70"
+          loading="eager"
+        />
+        <figcaption>Homer Simpson</figcaption>
+      </figure>
     </div>
   );
 }
